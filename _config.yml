@@ -8,10 +8,10 @@ menu:
   Archives: archives
   Categories: categories
   Tags: tags
-  About: about
-rss: /atom.xml
+  #About: about
+#rss: /atom.xml
 
-since: 2013
+since: 2018
 
 # Set default keywords (Use a comma to separate)
 keywords: ""
@@ -20,18 +20,18 @@ keywords: ""
 avatar: 
   enable: true
   border: true
-  width: 124
-  height: 124
-  top: 0
-  url: css/images/mylogo.jpg
+  width: 93
+  height: 93
+  top: 5
+  url: css/images/avatar.jpg
 
 
 # Homepage
 # eg. home_background_image: [css/images/home-bg.jpg, http://t.cn/RMbvEza]
 # eg. mode: image | polyline | trianglify
 home_background_image:
-  enable: true
-  mode: image
+  enable: false
+  mode: polyline
   rolling: true
   url: [css/images/home-bg.jpg, css/images/sample.jpg, https://source.unsplash.com/collection/954550/1920x1080]
 
@@ -61,7 +61,7 @@ fancybox: true
 
 
 # Sidebar
-sidebar: right
+sidebar: left
 widgets:
 - social
 - category
@@ -75,15 +75,15 @@ widgets:
 # Key is the name of FontAwsome icon.
 # Value is the target link (E.g. GitHub: https://github.com/iTimeTraveler)
 social:
-  Github: https://github.com/iTimeTraveler
-  Weibo: http://www.yoursite.com
-  Twitter: 
-  Facebook: 
-  Google-plus: 
-  Instagram: 
-  Pinterest: 
-  Flickr: 
-  email:
+  Github: https://github.com/mouzishuo
+#  Weibo: http://www.yoursite.com
+#  Twitter: 
+#  Facebook: 
+#  Google-plus: 
+#  Instagram: 
+#  Pinterest: 
+#  Flickr: 
+#  email:
 
 
 # Search
@@ -95,9 +95,8 @@ search:
 
 # comment ShortName, you can choose only ONE to display.
 gentie_productKey: #your-gentie-product-key
-duoshuo_shortname: 
-disqus_shortname: 
-livere_shortname: MTAyMC8yOTQ4MS82MDQ5
+disqus_shortname:
+livere_shortname: #MTAyMC8yOTQ4MS82MDQ5
 uyan_uid: 
 wumii: 
 
@@ -106,20 +105,20 @@ wumii:
 # Available value:
 #    default | gray | normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: default
+highlight_theme: gray
 
 
 # Article theme color
 # Available value:
 #    random | orange | blue | red | green | black
-theme_color: random
+theme_color: orange
 
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
-# - category
-# - tagcloud
-# - archive
+ - category
+ - tagcloud
+ - archive
 
 
 # widget behavior
@@ -152,7 +151,7 @@ facebook_sdk:
   webmaster:    #true
 
 # CNZZ count
-cnzz_siteid: 1260716016
+cnzz_siteid: #1260716016
 
 # busuanzi count
 # http://busuanzi.ibruce.info/
@@ -161,11 +160,11 @@ show_busuanzi_view_counts: true
 
 # donation button
 donate:
-    enable: true
+    enable: false
     message: '如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作!'
-    wechatImage: https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/WeChanQR.png
-    alipayImage: https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/AliPayQR.jpg
+    wechatImage: 
+    alipayImage: 
     
 # post copyright
 copyright:
-    enable: true
+    enable: false
